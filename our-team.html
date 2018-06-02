@@ -17,17 +17,25 @@
             </head>
 
             <body>
-
+ <div id="mySidenav" class="sidenav">
+        <a href="index.html" class="logobtn"><i class="fa fa-home" style="font-size: 25px; padding-top: 1vh;"></i></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="abous-us.html">About</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="our-team.html">Our Team</a>
+        <p>Event Registration:</p>
+        <a href="smtf.html">SMTF</a>
+        <a href="Irshad.html">Irshad</a>
+        <a href="Inverse.html">Inverse</a>    
+    </div>
+            <!-- Start your project here-->
+            <a href="#" class="nav-but" data-activates="slide-out" onclick="openNav()"><i class="fa fa-bars" style="font-size: 25px; padding-top: 1vh;"></i></a>
                 <!-- Start your project here-->
               
                 <!-- Section: Team v.1 -->
           
             <section class="team-section text-center my-5">
-           <div class="animated fadeIn mb-4">
-            <a href="index.html">
-                        <img src="img/logo.png" height="80vh">
-                        </a>
-                    </div>
+           
               <!-- Section heading -->
               <h3 class="h1-responsive font-weight-bold my-5">Our amazing team</h3>
 
@@ -335,6 +343,21 @@
                 <script type="text/javascript" src="js/bootstrap.min.js"></script>
                 <!-- MDB core JavaScript -->
                 <script type="text/javascript" src="js/mdb.min.js"></script>
+                <script type="text/javascript">
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+    }
+            </script>
             </body>
 
             </html>
