@@ -135,10 +135,12 @@
 
           <!--Grid column-->
           <div class="col-md-6 mb-4">
-                  <p>Events Enquiry:</p>
-                  <p><span class="fa fa-user"></span> Roshika Chatur</p>
+                  <h4>Enquiry:</h4>
+                  <p><b>Convenor:</b> Thejeswi Ramesh</p>
+                  <p><b>Events:</b> Ishita Srivastava & Roshika Chatur</p>
+                  <p><b>Participation:</b> Isha Singla</p>
                   <p><span class="fa fa-map-marker"></span> BITS Pilani, KK Birla Goa Campus</p>
-                  <p><span class="fa fa-envelope"></span> Email: info@bits-waves.org</p>
+                  <p><span class="fa fa-envelope"></span> <b>Email:</b> info@bits-waves.org</p>
 
           </div>
           <!--Grid column-->
@@ -147,30 +149,30 @@
           <div class="col-md-6 mb-4">
 
             <!-- Default form contact -->
-            <form>
+            <form method="post" action="/contactform">
                 <p class="h4 text-center mb-4">Write to us</p>
 
                 <!-- Default input name -->
                 <label for="defaultFormContactNameEx" class="grey-text">Your name</label>
-                <input type="text" id="defaultFormContactNameEx" class="form-control">
+                <input type="text" id="defaultFormContactNameEx" name="name" class="form-control">
                 
                 <br>
 
                 <!-- Default input email -->
                 <label for="defaultFormContactEmailEx" class="grey-text">Your email</label>
-                <input type="email" id="defaultFormContactEmailEx" class="form-control">
+                <input type="email" id="defaultFormContactEmailEx" name="email" class="form-control">
 
                 <br>
 
                 <!-- Default input subject -->
                 <label for="defaultFormContactSubjectEx" class="grey-text">Subject</label>
-                <input type="text" id="defaultFormContactSubjectEx" class="form-control">
+                <input type="text" id="defaultFormContactSubjectEx" name="subject" class="form-control">
 
                 <br>
                 
                 <!-- Default textarea message -->
                 <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
-                <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+                <textarea type="text" id="defaultFormContactMessageEx" class="form-control" name="message" rows="3"></textarea>
 
                 <div class="text-center mt-4">
                     <button class="btn btn-outline-warning" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
